@@ -8,6 +8,8 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingAddComponent } from './shopping-add/shopping-add.component';
 import { HomeComponent } from './home/home.component';
 import { ShoppingEditComponent } from './shopping-edit/shopping-edit.component';
+import { CategoryAddComponent } from './category-add/category-add.component';
+import { CategoryEditComponent } from './category-edit/category-edit.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { ShoppingEditComponent } from './shopping-edit/shopping-edit.component';
     ShoppingAddComponent,
     HomeComponent,
     ShoppingEditComponent,
+    CategoryAddComponent,
+    CategoryEditComponent,
     // HttpClientModule,
   ],
   imports: [BrowserModule, AppRoutingModule],
